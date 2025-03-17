@@ -16,7 +16,7 @@ Getting Started
 To set up this project on your local machine:
 
 Clone the repository:
-git clone https://github.com/your-username/migros-sanal-market.git
+git clone https://github.com/asiancart/Laravel_Sanal_Market_Migros.git
 cd migros-sanal-market
 
 Install dependencies:
