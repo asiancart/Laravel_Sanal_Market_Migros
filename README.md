@@ -1,4 +1,36 @@
+Migros Sanal Market
+This project is a virtual market application developed using Laravel. The aim is to create an online shopping platform where users can browse products, add them to their cart, and complete their purchases.
 
+About the Project
+Built with Laravel, a powerful and elegant PHP framework.
+Implements modern web development practices for a smooth user experience.
+Features include product listings, cart management, and order processing.
+Why Laravel?
+Laravel simplifies web development with its:
+
+Simple and fast routing system.
+Robust Eloquent ORM for database interactions.
+Secure authentication and authorization mechanisms.
+Built-in support for background job processing and caching.
+Getting Started
+To set up this project on your local machine:
+
+Clone the repository:
+git clone https://github.com/your-username/migros-sanal-market.git
+cd migros-sanal-market
+
+Install dependencies:
+composer install
+
+Set up the environment file:
+cp .env.example .env
+php artisan key:generate
+
+Run migrations and seed the database:
+php artisan migrate --seed
+
+Start the development server:
+php artisan serve
 
 =======
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
